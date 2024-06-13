@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    background-color: black;
+    width: 80vmin;
+    height: 80vmin;
+    border:solid;
+    border-color:white;
+    display:grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background-color: red;
+}
+
+.snake{
+    background-color: purple;
+}
+
+.food{
+    background-color: yellow;
+}
