@@ -1,3 +1,10 @@
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +19,6 @@
 }
 
 #board{
-    background-color: black;
     width: 80vmin;
     height: 80vmin;
     border:solid;
@@ -20,6 +26,7 @@
     display:grid;
     grid-template-rows: repeat(18,1fr);
     grid-template-columns: repeat(18,1fr);
+    position:absolute;
 }
 
 .head{
@@ -32,4 +39,26 @@
 
 .food{
     background-color: yellow;
+}
+
+#score{
+    font-family: "Tiny5";
+    color:white;
+    font-size:50px;
+    position:absolute;
+    top:10px;
+    
+}
+
+#over{
+    font-family: "Tiny5";
+    color:white;
+    font-size:100px;
+    position:absolute;
+
+    
+}
+
+.red{
+    color:red;
 }
